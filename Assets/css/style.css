@@ -1,5 +1,80 @@
+
 * {
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url(/Images/bckground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+}
+.operators{
+    background-color: #585a52;
+}
+.numbers{
+    background-color: #7DE2D1;
+}
+.calc {
+    position: relative;
+    background-color: #FFFAFB;
+    text-align: center;
+    min-width: 300px;
+    padding: 15px 10px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px
+}
+#output {
+
+    text-align: center;
+    min-width: 250px;
+    padding: 15px 10px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    font-size: 2em;
+    min-height: 80px;
+    margin-bottom: 20px;
+}
+
+.clear{
+    width: 100%;
+}
+button {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    margin: 0 10px;
+    font-size: 1.3em;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2), inset -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1)
+}
+ 
+button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+.clear:hover {
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+
+#clear {
+    background: rgb(133, 19, 19);
+}
+
+.donot{
+    text-decoration: none;
+    text-align: center
 }
